@@ -22,7 +22,7 @@ function printSus() {
         showWarning("divisior number");
     } else {
         for (let i = startNum, div = divNum, range = rangeNum; 
-        i < range; i++) {
+        i <= range; i++) {
             if (i % div === 0) {
                 console.warn(i);
             } else {
