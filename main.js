@@ -5,10 +5,15 @@ function addRange(start, range=10) {
     return start + range;
 }
 
+function showWarning(field) {
+    console.clear();
+    console.log(`Please put a number to the corresponding ${field}`)
+}
+
 function printSus() {
     let startNum = parseInt(startInput.value);
     let divNum = parseInt(divInput.value);
-    
+
     for (let i = startNum, div = divNum, range = addRange(startNum); 
     i < range; i++) {
         if (i % div === 0) {
