@@ -14,20 +14,22 @@ function showWarning(field) {
 function printSus() {
     let startNum = parseInt(startInput.value);
     let divNum = parseInt(divInput.value);
+    let rangeNum = addRange(startNum);
 
     if (typeof startNum !== "number") {
         showWarning("starting number");
     } else if (typeof divNum !== "number") {
         showWarning("divisior number");
     } else {
-        for (let i = startNum, div = divNum, range = addRange(startNum); 
+        for (let i = startNum, div = divNum, range = rangeNum; 
         i < range; i++) {
             if (i % div === 0) {
-                console.error(i);
+                console.warn(i);
             } else {
                 console.log(i);
             }
         }
+        console.log(`Test ${startNum}-${rangeNum} Done!\n\n\nTest Start...`);
     }
 }
 
