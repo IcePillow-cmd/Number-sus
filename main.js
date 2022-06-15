@@ -1,3 +1,4 @@
+const form = document.querySelector("#form");
 const startInput = document.querySelector("#start-input");
 const divInput = document.querySelector("#div-input");
 
@@ -15,9 +16,9 @@ function printSus() {
     let divNum = parseInt(divInput.value);
 
     if (typeof startNum !== "number") {
-        showWarning("starting number")
+        showWarning("starting number");
     } else if (typeof divNum !== "number") {
-        showWarning("divisior number")
+        showWarning("divisior number");
     } else {
         for (let i = startNum, div = divNum, range = addRange(startNum); 
         i < range; i++) {
@@ -28,5 +29,9 @@ function printSus() {
             }
         }
     }
-
 }
+
+form.addEventListener("submit", (e) => {
+    printSus();
+    e.preventDefault(); // to prevent submit event's page refresh
+});
