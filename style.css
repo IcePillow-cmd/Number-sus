@@ -106,6 +106,10 @@ Tutorial
     font-size: 25px;
 }
 
+
+/*
+Reference Section
+*/
 .reference-table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -132,4 +136,15 @@ Tutorial
 
 .reference-table th:nth-child(even) {
     background-color: #f3f3f3;
+}
+
+/*
+Steps
+*/
+
+#steps ol {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-left: 30px;
+    line-height: 45px;
 }
