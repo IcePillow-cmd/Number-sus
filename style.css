@@ -12,7 +12,11 @@
     padding: 10px 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    border-width: 2px;
+}
+
+.label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
 }
 
 #submit-btn, 
@@ -39,6 +43,7 @@
 #clear-btn {
     background-color: rgb(255, 214, 138);
     border: 2px solid orange;
+    margin: 30px;
 }
 
 #clear-btn:hover {
