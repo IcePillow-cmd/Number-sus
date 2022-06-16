@@ -12,6 +12,7 @@ body {
 }
 
 .headings {
+    font-size: 40px;
     margin: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
