@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-#header {
+.header {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -11,12 +11,12 @@ body {
     padding: 10px;
 }
 
-#headings {
+.headings {
     margin: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-#instructions {
+.instructions {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
