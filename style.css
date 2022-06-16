@@ -88,3 +88,19 @@ body {
     border: 2px solid orange;
     color: orangered;
 }
+
+/*
+Tutorial
+*/
+
+.section-head {
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.about-para {
+    margin: 0px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
