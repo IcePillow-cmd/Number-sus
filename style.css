@@ -75,7 +75,7 @@ body {
 #clear-btn {
     background-color: rgb(255, 214, 138);
     border: 2px solid orange;
-    margin: 30px;
+    margin: 0px 30px;
 }
 
 #clear-btn:hover {
