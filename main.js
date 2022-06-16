@@ -2,6 +2,7 @@ const form = document.querySelector("#form");
 const startInput = document.querySelector("#start-input");
 const rangeInput = document.querySelector("#range-input");
 const divInput = document.querySelector("#div-input");
+const clearBtn = document.querySelector("#clear-btn");
 
 function addRange(start, range=10) {
     return start + range;
@@ -39,3 +40,5 @@ form.addEventListener("submit", (e) => {
     printSus();
     e.preventDefault(); // to prevent submit event's page refresh
 });
+
+clearBtn.addEventListener("click", () => console.clear());
