@@ -105,3 +105,31 @@ Tutorial
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
 }
+
+.reference-table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.reference-table {
+    width: 90%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.reference-table th, td {
+    padding: 10px;
+}
+
+.reference-table td:nth-child(odd) {
+    background-color: rgb(210, 255, 141);
+}
+
+.reference-table th:nth-child(odd) {
+    background-color: rgb(135, 255, 135);
+}
+
+.reference-table th:nth-child(even) {
+    background-color: #f3f3f3;
+}
