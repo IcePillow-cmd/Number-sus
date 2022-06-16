@@ -27,7 +27,7 @@ function printSus() {
         for (let i = startNum, div = divNum, range = rangeNum; 
         i <= range; i++) {
             if (i % div === 0) {
-                console.warn(i);
+                console.error(`${i} is ejected`);
             } else {
                 console.log(i);
             }
