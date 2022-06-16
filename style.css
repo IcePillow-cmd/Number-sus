@@ -149,3 +149,9 @@ Steps
     margin-left: 30px;
     line-height: 45px;
 }
+
+.steps-image {
+    max-width: 700px;
+    max-height: 700px;
+    box-shadow: 0px 4px 8px;
+}
