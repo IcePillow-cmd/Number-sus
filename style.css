@@ -4,3 +4,9 @@
     align-items: flex-start;
     gap: 30px;
 }
+
+.number-input {
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
