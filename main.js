@@ -1,5 +1,6 @@
 const form = document.querySelector("#form");
 const startInput = document.querySelector("#start-input");
+const rangeInput = document.querySelector("#range-input");
 const divInput = document.querySelector("#div-input");
 
 function addRange(start, range=10) {
@@ -14,7 +15,8 @@ function showWarning(field) {
 function printSus() {
     let startNum = parseInt(startInput.value);
     let divNum = parseInt(divInput.value);
-    let rangeNum = addRange(startNum);
+    let length = parseInt(rangeInput.value);
+    let rangeNum = addRange(startNum, length);
 
     if (typeof startNum !== "number") {
         showWarning("starting number");
